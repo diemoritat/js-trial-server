@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "nodemon server/index.js",
+    "start": "nodemon server/index.js --exec babel-node --watch server/**/*.js",
     "test": "jest server"
   },
   "browserslist": [
