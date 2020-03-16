@@ -2,7 +2,6 @@
   "name": "js-trial-server-br",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000/",
   "scripts": {
     "start": "nodemon server/index.js --exec babel-node --watch server/**/*.js",
     "test": "jest server"
